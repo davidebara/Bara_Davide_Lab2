@@ -21,5 +21,7 @@ namespace Bara_Davide_Lab2.Data
         public DbSet<Bara_Davide_Lab2.Models.Author>? Author { get; set; }
 
         public DbSet<Bara_Davide_Lab2.Models.Category>? Category { get; set; }
+
+        public DbSet<Bara_Davide_Lab2.Models.BookCategory>? BookCategory { get; set; }
     }
 }
